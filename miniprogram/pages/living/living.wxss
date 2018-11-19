@@ -1,0 +1,36 @@
+/* pages/living/living.wxss */
+
+.mjzb_contain{
+  position: relative;
+}
+.mjzb{
+  width: 750rpx;
+}
+
+.kfcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  right: 10rpx;
+  bottom: 50rpx;
+}
+
+.kf{
+ 
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.lxkf{
+  color: white;
+  font-size: 28rpx;
+}
+
+.kfan{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  opacity: 0;
+}

@@ -1,0 +1,74 @@
+/* pages/home/home.wxss */
+
+.g_body{
+  padding: 20rpx 10rpx 10rpx 10rpx;
+  background-color: beige;
+}
+
+.business_item{
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  background-color: white;
+}
+
+.business_item_info{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 30rpx;
+}
+
+.business_item_info_avatar{
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 30rpx;
+  border-radius: 75rpx;
+}
+
+.business_item_info_user{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.business_item_info_user_dp{
+  font-size: 34rpx;
+  margin-bottom: 20rpx;
+}
+
+.business_item_info_user_wx{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.biiuw_logo{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.biiuw_wxh{
+  font-size: 24rpx;
+  color: #666;
+}
+
+.business_item_products{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: white;
+  padding: 0 0 10rpx 0;
+}
+
+.business_item_products_img{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0 10rpx;
+  border-radius: 8rpx;
+}

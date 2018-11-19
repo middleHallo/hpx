@@ -1,0 +1,13 @@
+/* pages/buy/buy.wxss */
+.container{
+  position: relative;
+}
+
+.item_img{
+  width: 730rpx;
+}
+
+.swiper_contain{
+  width: 730rpx;
+  height: 120vh;
+}

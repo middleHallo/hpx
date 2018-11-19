@@ -1,0 +1,13 @@
+<!--pages/living/living.wxml-->
+<view class='mjzb_contain'>
+    <image class='mjzb' mode='widthFix' src='{{src}}'></image>
+    <view class='kfcontainer'>
+        <image class='kf' mode='widthFix' src='/images/kf.png'></image>
+        <text class='lxkf'>联系客服</text>
+        <button open-type="contact" class='kfan'></button>
+        <!-- <button open-type=''></button> -->
+    </view>
+      
+    
+    
+</view>

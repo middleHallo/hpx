@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class='g_body'>
+    <block wx:for="{{business}}" wx:key="{{index}}">
+        <view class='business_item'>
+            <view class='business_item_info'>
+                <image src='{{item.avatar}}' class='business_item_info_avatar'></image>
+                <view class='business_item_info_user'>
+                    <text class='business_item_info_user_dp'>{{item.storename}}</text>
+                    <view class='business_item_info_user_wx'>
+                        <image src='/images/wechat.png' class='biiuw_logo'></image>
+                        <text class='biiuw_wxh'>微信号:{{item.wxh}}</text>
+                    </view>
+                    
+                </view>
+            </view>
+            <view class='business_item_products' bindtap='goto' data-idx='{{index}}'>
+                <block wx:for="{{item.products}}" wx:key="{{index}}">
+                   <image src='{{item}}' class='business_item_products_img'  ></image>
+                </block>
+            </view>
+        </view>
+    </block>
+</view>

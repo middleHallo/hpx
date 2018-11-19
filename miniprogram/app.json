@@ -1,0 +1,44 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/my/my",
+    "pages/share/share",
+    "pages/living/living",
+    "pages/buy/buy"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "海拼侠",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_s.png"
+    },
+    {
+      "pagePath": "pages/buy/buy",
+      "text": "大家来拼单",
+      "iconPath": "images/buy.png",
+      "selectedIconPath": "images/buy_s.png"
+    },
+    {
+      "pagePath": "pages/living/living",
+      "text": "卖家分享",
+      "iconPath": "images/living.png",
+      "selectedIconPath": "images/living_s.png"
+    },
+    {
+      "pagePath": "pages/share/share",
+      "text": "买家分享",
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me_s.png"
+    }]
+  }
+}

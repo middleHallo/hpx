@@ -1,0 +1,26 @@
+/* pages/share/share.wxss */
+
+.customer_share{
+  width: 230rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top-right-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+  background-color: #d81e06;
+  color: white;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  /* position: fixed;
+  left: 0;
+  top: 10rpx; */
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10rpx;
+}
+.item{
+  width: 730rpx;
+}

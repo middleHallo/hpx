@@ -1,0 +1,7 @@
+<!--pages/share/share.wxml-->
+<view class='customer_share'>买家分享精品</view>
+<view class='contain'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+      <image src='{{item}}' mode='widthFix' class='item'></image>
+  </block>
+</view>
