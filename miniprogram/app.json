@@ -16,6 +16,8 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff2400",
     "list": [{
       "pagePath": "pages/home/home",
       "text": "首页",
@@ -24,9 +26,10 @@
     },
     {
       "pagePath": "pages/buy/buy",
-      "text": "大家来拼单",
+      "text": "店内精品",
       "iconPath": "images/buy.png",
       "selectedIconPath": "images/buy_s.png"
+      
     },
     {
       "pagePath": "pages/living/living",
@@ -36,7 +39,7 @@
     },
     {
       "pagePath": "pages/share/share",
-      "text": "买家分享",
+      "text": "买家推荐",
       "iconPath": "images/me.png",
       "selectedIconPath": "images/me_s.png"
     }]
